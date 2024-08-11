@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    
+}
+
+#pacman-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#pacman {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    transition: transform 0.1s linear;
+}
